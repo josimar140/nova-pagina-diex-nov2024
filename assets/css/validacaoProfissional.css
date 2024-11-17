@@ -321,6 +321,14 @@ footer {
     margin-top: 170px;
   }
 
+  .bar {
+    display: block;
+    background-color: var(--cor-vermelho);
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+  }
+
   .hamburguer {
     display: block;
   }
