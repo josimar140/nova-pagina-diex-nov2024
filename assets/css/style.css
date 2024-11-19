@@ -18,7 +18,7 @@
 }
 
 html {
-  font-size: 62, 5%;
+  font-size: 62,5%;
 }
 
 body {
@@ -96,11 +96,6 @@ header {
   width: 100%;
 }
 
-nav.nav-bar {
-  background-color: var(--cor-verde-header-tramit-footer);
-  color: --cor-verde-header-tramit-footer: rgb(0, 128, 0);
-}
-
 .nav-menu {
   display: flex;
   justify-content: center;
@@ -140,12 +135,12 @@ nav ul li a.active {
   color: var(--cor-branco);
 }
 
-div.hamburguer {
-  color: var(--cor-verde-hover);
+.hamburguer {
+  display: none;
 }
 
 .bar {
-  display: none;
+  display: block;
   width: 25px;
   height: 3px;
   margin: 5px auto;
@@ -161,6 +156,7 @@ main {
   width: 80%;
   margin: 0 auto;
   margin-top: 180px;
+  color: var(--cor-preto-claro);
 }
 
 #container {
@@ -323,10 +319,8 @@ hr {
 }
 
 .contato p {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 1.1rem;
-  align-items: center;
-  justify-content: center;
 }
 
 .contato p:nth-child(odd) {
@@ -344,7 +338,7 @@ footer {
   align-items: center;
   background-color: var(--cor-verde-header-tramit-footer);
   color: var(--cor-branco);
-  display: inline-block;
+  display: flex;
   justify-content: center;
   margin-top: 20px;
   text-align: center;
@@ -360,17 +354,21 @@ footer {
 
 #footer-endereco {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
-.footer-bloco {
-  margin-bottom: 10px;
+.footer-bloco address, .footer-bloco p {
+  color: var(--cor-branco);
+  font-style: normal;
+  font-weight: normal;
+  font-family: inherit;
 }
 
 #desenv {
   margin-top: 20px;
   font-size: 0.8rem;
+  color: var(--cor-branco);
 }
 
 @media (max-width: 992px) {
@@ -429,8 +427,13 @@ footer {
 
   #footer-endereco {
     display: block;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+  }
+
+  .footer-bloco {
+    color: var(--cor-branco);
+    margin-bottom: 10px;
   }
 
   .grupo-consulta {
