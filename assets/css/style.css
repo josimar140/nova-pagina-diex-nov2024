@@ -376,6 +376,10 @@ footer {
     margin-top: 200px;
   }
 
+  .hamburguer {
+    display: block;
+  }
+
   .bar {
     display: block;
     background-color: var(--cor-vermelho);
