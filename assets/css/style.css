@@ -22,53 +22,53 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 #logo {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 80%;
   margin: 0 auto;
   padding: 10px 10px 0 0;
+  width: 80%;
 }
 
 .logo-img {
+  align-items: flex-end;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
 }
 
 .logo-img img {
-  width: 50px;
   height: 50px;
+  width: 50px;
 }
 
 .logo-img p {
-  display: block;
-  color: var(--cor-branco);
-  justify-content: flex-end;
   align-items: flex-end;
+  color: var(--cor-branco);
   font-size: 0.9rem;
+  display: block;
+  justify-content: flex-end;
 }
 
 .btn-social a {
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  border-radius: 50%;
-  margin: 10px;
-  background-color: transparent;
   border: none;
-  cursor: pointer;
+  background-color: transparent;
+  border-radius: 50%;
   color: var(--cor-branco);
+  cursor: pointer;
+  font-size: 20px;
+  height: 40px;
+  margin: 10px;
+  width: 40px;
 }
 
 .btn-social a:hover {
@@ -80,49 +80,49 @@ header {
   background-color: var(--cor-verde-header-tramit-footer);
   display: block;
   justify-content: center;
-  top: 0;
-  position: fixed;
   margin: 0 auto;
   padding: 10px 0px;
-  width: 100%;
+  position: fixed;
+  top: 0;
   z-index: 999;
+  width: 100%;
 }
 
 .nav-bar {
+  align-items: center;
   display: block;
   justify-content: center;
-  align-items: center;
   padding: 10px 10px;
   width: 100%;
 }
 
 .nav-menu {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 80%;
+  display: flex;
   margin: 0 auto;
+  justify-content: center;
+  width: 80%;
 }
 
 .nav-item {
-  display: block;
-  justify-content: center;
   align-items: center;
-  padding: 5px 5px;
   color: var(--cor-branco);
   cursor: pointer;
+  display: block;
+  justify-content: center;
+  padding: 5px 5px;
 }
 
 .nav-item a {
-  display: block;
   border-radius: 5px;
-  padding: 10px;
+  color: var(--cor-branco);
+  display: block;
+  font-size: 0.9em;
+  font-weight: 400;
   text-decoration: none;
   transition: all 0.9s ease;
   text-align: center;
-  font-size: 0.9em;
-  color: var(--cor-branco);
-  font-weight: 400;
+  padding: 10px;
 }
 
 .nav-link:hover {
@@ -140,23 +140,23 @@ nav ul li a.active {
 }
 
 .bar {
+  background-color: var(--cor-vermelho);
   display: block;
-  width: 25px;
   height: 3px;
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: var(--cor-vermelho);
+  width: 25px;
 }
 
 main {
+  align-items: center;
+  color: var(--cor-preto-claro);
   display: block;
   justify-content: center;
-  align-items: center;
-  width: 80%;
   margin: 0 auto;
   margin-top: 180px;
-  color: var(--cor-preto-claro);
+  width: 80%;
 }
 
 #container {
@@ -169,46 +169,46 @@ main {
 .accordion {
   background-color: #fff;
   border-radius: 8px;
-  padding: 12px;
   cursor: pointer;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
   margin: 5px 5px;
+  padding: 12px;
 }
 
 .accordion-header {
-  width: 100%;
+  align-items: center;
   border: none;
   background-color: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 1rem;
   cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .accordion-header span {
   color: var(--cor-preto);
+  font-size: 1.2rem;
   max-width: 100%;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 1.2rem;
+  white-space: nowrap;
 }
 
 .accordion-body {
   color: var(--cor-preto-claro);
   font-size: 1rem;
-  opacity: 0;
   height: 0;
-  overflow: hidden;
-  transition: opacity 0.3s;
-  text-align: justify;
   line-height: 1.2;
+  opacity: 0;
+  overflow: hidden;
+  text-align: justify;
+  transition: opacity 0.3s;
 }
 
 .accordion-body p {
-  line-height: 1.7rem;
   font-size: 1.1rem;
+  line-height: 1.7rem;
 }
 
 .accordion-body.active {
@@ -232,8 +232,8 @@ main {
 h1,
 h2 {
   color: var(--cor-preto-claro);
-  position: relative;
   margin-left: 5px;
+  position: relative;
 }
 
 h1::before {
