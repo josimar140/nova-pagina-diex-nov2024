@@ -146,7 +146,7 @@ nav ul li a.active {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: var(--cor-vermelho);
 }
 
 main {
@@ -155,6 +155,7 @@ main {
   align-items: center;
   width: 80%;
   color: var(--cor-preto-claro);
+  margin: 0 auto;
 }
 
 h1 {
@@ -293,12 +294,8 @@ footer {
 
 #footer-endereco {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-}
-
-.footer-bloco {
-  margin-bottom: 10px;
 }
 
 #desenv {
@@ -322,6 +319,14 @@ footer {
 
   .hamburguer {
     display: block;
+  }
+
+  .bar {
+    display: block;
+    background-color: var(--cor-vermelho);
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
   }
 
   .hamburguer.active .bar:nth-child(1) {
@@ -369,6 +374,11 @@ footer {
     display: block;
     justify-content: space-evenly;
     align-items: center;
+  }
+
+  .footer-bloco {
+    color: var(--cor-branco);
+    margin-bottom: 10px;
   }
 
   .grupo-consulta {
