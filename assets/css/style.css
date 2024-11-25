@@ -344,7 +344,7 @@ footer {
   text-align: center;
   padding: 20px;
   width: 100%;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .footer-container {
@@ -354,7 +354,7 @@ footer {
 
 #footer-endereco {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -363,6 +363,18 @@ footer {
   font-style: normal;
   font-weight: normal;
   font-family: inherit;
+}
+
+.footer-pesquisa {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-pesquisa img {
+  margin-top: 20px;
+  width: 50%;
+  cursor: pointer;
 }
 
 #desenv {
@@ -431,8 +443,20 @@ footer {
 
   #footer-endereco {
     display: block;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+  }
+
+  .footer-pesquisa {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-pesquisa img {
+    margin-top: 20px;
+    width: 18%;
+    cursor: pointer;
   }
 
   .footer-bloco {
