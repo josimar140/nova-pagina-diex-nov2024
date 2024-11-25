@@ -372,8 +372,9 @@ footer {
 }
 
 .footer-pesquisa img {
-  margin-top: 20px;
-  width: 50%;
+  width: 140px;
+  height: 120px;
+  object-fit: fill;
   cursor: pointer;
 }
 
@@ -455,7 +456,9 @@ footer {
 
   .footer-pesquisa img {
     margin-top: 20px;
-    width: 18%;
+    width: 120px;
+    height: 120px;
+    object-fit: fill;
     cursor: pointer;
   }
 
@@ -499,9 +502,24 @@ footer {
     margin-top: 220px;
   }
 
+  .footer-pesquisa {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-pesquisa img {
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    object-fit: fill;
+    cursor: pointer;
+  }
+
   footer {
     gap: 10px;
   }
+
 }
 
 @media (min-width: 1206px) and (max-width: 1312px) {
@@ -512,4 +530,18 @@ footer {
   footer {
     gap: 20px;
   }
+
+  .footer-pesquisa {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-pesquisa img {
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    object-fit: fill;
+    cursor: pointer;
+  }  
 }
