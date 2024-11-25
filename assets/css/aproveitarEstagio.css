@@ -281,7 +281,7 @@ footer {
   text-align: center;
   padding: 20px;
   min-width: 100%;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .footer-container {
@@ -291,7 +291,7 @@ footer {
 
 #footer-endereco {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -378,7 +378,7 @@ footer {
 
   #footer-endereco {
     display: block;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
